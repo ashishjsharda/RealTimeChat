@@ -12,3 +12,6 @@ webSocketServer.on('request',function(request){
         console.log('Client has disconnected.');
     });
 });
+server.listen(3001,function(){
+    console.log('Listening on port 3001');
+});
